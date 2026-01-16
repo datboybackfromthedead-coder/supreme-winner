@@ -1,0 +1,29 @@
+/project
+├── App.tsx                          # Navigation setup
+├── screens/                         # 8 tournament screens
+│   ├── HomeScreen.tsx
+│   ├── JoinTournamentScreen.tsx
+│   ├── CreateTournamentScreen.tsx
+│   ├── LobbyScreen.tsx
+│   ├── DrawScreen.tsx
+│   ├── VoteScreen.tsx
+│   ├── ResultsScreen.tsx
+│   └── JoinWithCodeScreen.tsx
+├── components/                      # Reusable UI blocks
+│   ├── Button.tsx
+│   ├── Card.tsx
+│   └── DrawingCanvas.tsx
+├── lib/
+│   └── theme.ts                     # Design tokens
+├── types/
+│   └── index.ts                     # TypeScript types
+├── convex/                          # Backend APIs
+│   ├── schema.ts
+│   ├── tournaments.ts
+│   ├── users.ts
+│   └── drawings.ts
+└── Documentation/
+    ├── ARCHITECTURE.md              # Full system design
+    ├── PROJECT_SUMMARY.md           # MVP overview
+    ├── IMPLEMENTATION_CHECKLIST.md  # Detailed tasks
+    └── GETTING_STARTED.md           # Developer guide
